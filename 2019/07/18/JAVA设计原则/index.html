@@ -5,15 +5,20 @@
   
 
   
-  <title>咸鱼</title>
+  <title>JAVA设计原则 | 咸鱼</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="咸鱼">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="##1. 单一职责原则类和方法保持单一，只做自己的事。 也就是说只能有一个原因会导致改类和方法的，不能因为修改一个功能导致另一个功能发生故障。 ##2. 开闭原则对扩展开放（提供者），对修改关闭（使用者）。用抽象构建框架，用实现扩展细节。当软件需要变化时，通过扩展软件实体行为来实现变化，而不是修改已有的代码来实现。  ##3. 迪米特法则又称为最少知道原则迪米特法则其根本思想，是强调了类之间的松耦">
+<meta name="keywords" content="设计模式 JAVA">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JAVA设计原则">
+<meta property="og:url" content="http://yoursite.com/2019/07/18/JAVA设计原则/index.html">
 <meta property="og:site_name" content="咸鱼">
+<meta property="og:description" content="##1. 单一职责原则类和方法保持单一，只做自己的事。 也就是说只能有一个原因会导致改类和方法的，不能因为修改一个功能导致另一个功能发生故障。 ##2. 开闭原则对扩展开放（提供者），对修改关闭（使用者）。用抽象构建框架，用实现扩展细节。当软件需要变化时，通过扩展软件实体行为来实现变化，而不是修改已有的代码来实现。  ##3. 迪米特法则又称为最少知道原则迪米特法则其根本思想，是强调了类之间的松耦">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-07-18T08:42:53.205Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="咸鱼">
+<meta name="twitter:title" content="JAVA设计原则">
+<meta name="twitter:description" content="##1. 单一职责原则类和方法保持单一，只做自己的事。 也就是说只能有一个原因会导致改类和方法的，不能因为修改一个功能导致另一个功能发生故障。 ##2. 开闭原则对扩展开放（提供者），对修改关闭（使用者）。用抽象构建框架，用实现扩展细节。当软件需要变化时，通过扩展软件实体行为来实现变化，而不是修改已有的代码来实现。  ##3. 迪米特法则又称为最少知道原则迪米特法则其根本思想，是强调了类之间的松耦">
   
     <link rel="alternate" href="/atom.xml" title="咸鱼" type="application/atom+xml">
   
@@ -60,9 +65,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-JAVA设计原则" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-JAVA设计原则" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/07/18/JAVA设计原则/" class="article-date">
   <time datetime="2019-07-18T02:53:03.000Z" itemprop="datePublished">2019-07-18</time>
@@ -79,8 +82,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/07/18/JAVA设计原则/">JAVA设计原则</a>
+    <h1 class="article-title" itemprop="name">
+      JAVA设计原则
     </h1>
   
 
@@ -136,102 +139,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-orcale-表字段生成-java成员变量" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/07/10/orcale-表字段生成-java成员变量/" class="article-date">
-  <time datetime="2019-07-10T02:08:52.000Z" itemprop="datePublished">2019-07-10</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/java/">java</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/07/10/orcale-表字段生成-java成员变量/">表字段生成 java成员变量</a>
-    </h1>
+    <a href="/2019/07/10/orcale-表字段生成-java成员变量/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">表字段生成 java成员变量</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="orcale"><a href="#orcale" class="headerlink" title="orcale"></a>orcale</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">select</span> <span class="string">'private '</span> || <span class="keyword">case</span></span><br><span class="line">         <span class="keyword">when</span> A.DATA_TYPE = <span class="string">'NUMBER'</span> <span class="keyword">and</span> a.DATA_SCALE &gt; <span class="number">0</span> <span class="keyword">then</span></span><br><span class="line">          <span class="string">'BigDecimal '</span> || <span class="keyword">lower</span>(A.COLUMN_NAME) || <span class="string">';   /* '</span> ||</span><br><span class="line">          <span class="keyword">replace</span>(COMMENTS, <span class="keyword">chr</span>(<span class="number">10</span>), <span class="keyword">chr</span>(<span class="number">32</span>)) || <span class="string">' */'</span></span><br><span class="line">         <span class="keyword">else</span></span><br><span class="line">          <span class="keyword">decode</span>(A.DATA_TYPE,</span><br><span class="line">                 <span class="string">'VARCHAR2'</span>,</span><br><span class="line">                 <span class="string">'String '</span>,</span><br><span class="line">                 <span class="string">'NUMBER'</span>,</span><br><span class="line">                 <span class="string">'Integer '</span>,</span><br><span class="line">                 <span class="string">'DATE'</span>,</span><br><span class="line">                 <span class="string">'Date '</span>) || <span class="keyword">lower</span>(A.COLUMN_NAME) || <span class="string">';   /* '</span> ||</span><br><span class="line">          <span class="keyword">replace</span>(COMMENTS, <span class="keyword">chr</span>(<span class="number">10</span>), <span class="keyword">chr</span>(<span class="number">32</span>)) || <span class="string">' */'</span></span><br><span class="line">       <span class="keyword">end</span> <span class="keyword">as</span> title</span><br><span class="line">  <span class="keyword">from</span> user_tab_columns A, user_col_comments B</span><br><span class="line"> <span class="keyword">where</span> A.TABLE_NAME = <span class="string">'SB_JLZC'</span></span><br><span class="line">   <span class="keyword">AND</span> A.TABLE_NAME = B.table_name(+)</span><br><span class="line">   <span class="keyword">AND</span> A.column_name = B.column_name(+)</span><br><span class="line"> <span class="keyword">order</span> <span class="keyword">by</span> A.COLUMN_ID <span class="keyword">asc</span></span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/07/10/orcale-表字段生成-java成员变量/" data-id="cjy8fgo8b0001lsq6qlvtdqcs" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/07/10/hello-world/" class="article-date">
-  <time datetime="2019-07-10T00:39:23.737Z" itemprop="datePublished">2019-07-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/07/10/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/07/10/hello-world/" data-id="cjy8fgo8f0004lsq6kxlrw3dv" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
