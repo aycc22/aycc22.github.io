@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/08/01/%E6%B8%85%E7%90%86maven-lastUpdate%E6%96%87%E4%BB%B6/</loc>
+    
+    <lastmod>2019-08-01T08:42:24.784Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/07/23/spring%E6%B3%A8%E8%A7%A3/</loc>
+    
+    <lastmod>2019-07-23T02:28:11.102Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/07/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F-Singleton-Pattern/</loc>
     
-    <lastmod>2019-07-19T07:32:42.070Z</lastmod>
+    <lastmod>2019-07-23T00:54:16.355Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2019/07/18/JAVA%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/</loc>
     
-    <lastmod>2019-07-18T09:56:56.189Z</lastmod>
+    <lastmod>2019-07-23T00:52:39.644Z</lastmod>
     
   </url>
   
